@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Link(destination: URL(string: "https://www.apple.com")!, label: {
+            Text("Apple")
+        })
     }
 }
 
